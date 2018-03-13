@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>840</width>
+    <height>611</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QListWidget" name="listWidget_2">
+        <item>
+         <property name="text">
+          <string>woman name1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>woman name2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>woman name3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>woman name4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>woman name5</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="text">
+         <string>تعديل</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="text">
+         <string>حذف</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="text">
+         <string>إضافة</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="1">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string>معلومات شخصية</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="2" column="4">
+          <widget class="QComboBox" name="comboBox_2">
+           <item>
+            <property name="text">
+             <string>New Item</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>New Item</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>New Item</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="2" column="9">
+          <widget class="QLineEdit" name="lineEdit_5"/>
+         </item>
+         <item row="1" column="4" colspan="6">
+          <widget class="QLineEdit" name="lineEdit_4"/>
+         </item>
+         <item row="2" column="8">
+          <widget class="QLabel" name="label_6">
+           <property name="text">
+            <string>الحالة الإجتماعية:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="10">
+          <widget class="QLabel" name="label_9">
+           <property name="text">
+            <string>المهنة:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="4">
+          <widget class="QLineEdit" name="lineEdit_3"/>
+         </item>
+         <item row="0" column="4">
+          <widget class="QDateEdit" name="dateEdit">
+           <property name="calendarPopup">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="6" colspan="2">
+          <widget class="QLineEdit" name="lineEdit_6"/>
+         </item>
+         <item row="2" column="5">
+          <widget class="QLabel" name="label_7">
+           <property name="text">
+            <string>المستوى الدراسي</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="6" colspan="2">
+          <widget class="QComboBox" name="comboBox">
+           <item>
+            <property name="text">
+             <string>New Item</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>New Item</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>New Item</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="0" column="6" colspan="2">
+          <widget class="QLineEdit" name="lineEdit_2"/>
+         </item>
+         <item row="0" column="10">
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>الاسم:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="9">
+          <widget class="QLineEdit" name="lineEdit"/>
+         </item>
+         <item row="0" column="8">
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>اللقب</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="5">
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>تاريخ الميلاد:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="10">
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string>العنوان:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="10">
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string>الهاتف:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="9">
+          <widget class="QLineEdit" name="lineEdit_7"/>
+         </item>
+         <item row="4" column="5">
+          <widget class="QLabel" name="label_13">
+           <property name="text">
+            <string>نوع التدريب:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="5">
+          <widget class="QLabel" name="label_10">
+           <property name="text">
+            <string>الحالة الاقتصادية</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="9" colspan="2">
+          <widget class="QCheckBox" name="checkBox_2">
+           <property name="text">
+            <string>تحتاج للمواصلات</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="8">
+          <widget class="QLabel" name="label_8">
+           <property name="text">
+            <string>الحالة الصحية</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="6" colspan="2">
+          <widget class="QLineEdit" name="lineEdit_8"/>
+         </item>
+         <item row="4" column="9" colspan="2">
+          <widget class="QCheckBox" name="checkBox">
+           <property name="text">
+            <string> ترغب في التدريب</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="8">
+          <widget class="QLabel" name="label_12">
+           <property name="text">
+            <string>السبب:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="4">
+          <widget class="QLineEdit" name="lineEdit_9"/>
+         </item>
+         <item row="6" column="4" colspan="7">
+          <widget class="QGroupBox" name="groupBox_2">
+           <property name="title">
+            <string>الأولاد:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_4">
+            <item row="4" column="1">
+             <widget class="QPushButton" name="pushButton_5">
+              <property name="text">
+               <string>تعديل</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="label_14">
+              <property name="text">
+               <string>أسماء الاولاد:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QPushButton" name="pushButton_6">
+              <property name="text">
+               <string>حذف</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1" rowspan="2">
+             <widget class="QListWidget" name="listWidget">
+              <item>
+               <property name="text">
+                <string>child1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>child2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>child3</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QPushButton" name="pushButton">
+              <property name="text">
+               <string>إضافة طفل</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0" rowspan="5">
+             <widget class="QGroupBox" name="groupBox_3">
+              <property name="title">
+               <string/>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_2">
+               <item>
+                <layout class="QGridLayout" name="gridLayout_5">
+                 <item row="1" column="2">
+                  <widget class="QDateEdit" name="dateEdit_2">
+                   <property name="calendarPopup">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="3">
+                  <widget class="QLabel" name="label_17">
+                   <property name="text">
+                    <string>تاريخ الميلاد:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="2">
+                  <widget class="QLineEdit" name="lineEdit_10"/>
+                 </item>
+                 <item row="0" column="0">
+                  <widget class="QLineEdit" name="lineEdit_11"/>
+                 </item>
+                 <item row="0" column="3">
+                  <widget class="QLabel" name="label_15">
+                   <property name="text">
+                    <string>الاسم:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="5" column="0">
+                  <spacer name="verticalSpacer_3">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>20</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item row="0" column="1">
+                  <widget class="QLabel" name="label_16">
+                   <property name="text">
+                    <string>اللقب:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="4" column="0" colspan="4">
+                  <widget class="QGroupBox" name="groupBox_4">
+                   <property name="title">
+                    <string>محتاج خصوصي في:</string>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout_6">
+                    <item row="0" column="1">
+                     <widget class="QCheckBox" name="checkBox_7">
+                      <property name="text">
+                       <string>أنجليزي</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="0">
+                     <widget class="QCheckBox" name="checkBox_5">
+                      <property name="text">
+                       <string>عربي</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="2">
+                     <widget class="QCheckBox" name="checkBox_6">
+                      <property name="text">
+                       <string>رياضيات</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="0">
+                     <widget class="QCheckBox" name="checkBox_9">
+                      <property name="text">
+                       <string>دراسات إسلامية</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="1">
+                     <widget class="QCheckBox" name="checkBox_8">
+                      <property name="text">
+                       <string>علوم</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="2">
+                     <widget class="QCheckBox" name="checkBox_3">
+                      <property name="text">
+                       <string>حاسوب</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item row="2" column="0" colspan="2">
+                  <widget class="QComboBox" name="comboBox_4">
+                   <item>
+                    <property name="text">
+                     <string>New Item</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>New Item</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>New Item</string>
+                    </property>
+                   </item>
+                  </widget>
+                 </item>
+                 <item row="2" column="2" colspan="2">
+                  <widget class="QLabel" name="label_18">
+                   <property name="text">
+                    <string>المستوى الدراسي</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="6" column="0" colspan="3">
+                  <widget class="QLineEdit" name="lineEdit_12"/>
+                 </item>
+                 <item row="5" column="2" colspan="2">
+                  <widget class="QCheckBox" name="checkBox_4">
+                   <property name="text">
+                    <string>محتاج للمواصلات</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="3" column="2" colspan="2">
+                  <widget class="QLabel" name="label_20">
+                   <property name="text">
+                    <string>تقدبر العام الماضي</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="3" column="1">
+                  <widget class="QComboBox" name="comboBox_5">
+                   <item>
+                    <property name="text">
+                     <string>New Item</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>New Item</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>New Item</string>
+                    </property>
+                   </item>
+                  </widget>
+                 </item>
+                 <item row="6" column="3">
+                  <widget class="QLabel" name="label_19">
+                   <property name="text">
+                    <string>الهوايات:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="7" column="0">
+                  <widget class="QPushButton" name="pushButton_7">
+                   <property name="text">
+                    <string>حفظ</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="6" column="0">
+             <spacer name="verticalSpacer">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>40</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item row="7" column="5" colspan="4">
+          <widget class="QPushButton" name="pushButton_8">
+           <property name="text">
+            <string>حفظ</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>840</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
